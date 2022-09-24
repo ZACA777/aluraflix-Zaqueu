@@ -65,3 +65,19 @@ body {
 .form-wrapper button:hover {
   opacity: 0.8;
 }
+
+@media (max-widht: 580) {
+  .form-wrapper button:hover {
+    opacity: 0.5  ;
+  }
+  #listaFilmes img { 
+    border: 5px solid white;
+    margin: 10px;
+    max-height: 140px;
+  }
+
+  body {
+    min-width: 50%;
+  }
+
+}
